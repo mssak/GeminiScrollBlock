@@ -1,0 +1,7 @@
+{
+  "extName": { "message": "Block Gemini Auto-Scroll" },
+  "extShortName": { "message": "Gemini Scroll Block" },
+  "extDesc": { "message": "Prevents automatic scrolling while Gemini generates responses." },
+  "actionTitle": { "message": "Block Gemini Auto-Scroll" }
+}
+

@@ -1,0 +1,7 @@
+{
+  "extName": { "message": "Gemini 자동 스크롤 차단" },
+  "extShortName": { "message": "Gemini 스크롤 차단" },
+  "extDesc": { "message": "Gemini가 답변 생성 중일 때 발생하는 자동 스크롤을 차단합니다." },
+  "actionTitle": { "message": "Gemini 자동 스크롤 차단" }
+}
+
