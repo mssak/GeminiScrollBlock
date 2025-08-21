@@ -4,11 +4,7 @@ Gemini 에서 개열받는 자동 스크롤을 차단하는 크롬 확장 프로
 
 ## 설치
 
-1. 이 레파지토리 폴더 클론하거나 해서 다운 받기
-2. Chrome에서 `chrome://extensions/` 열기
-3. 우측 상단 "개발자 모드" 켜기
-4. "압축해제된 확장 프로그램을 로드합니다" 클릭
-5. 1.에서 다운받은 요 폴더 선택
+https://chromewebstore.google.com/detail/gemini-%EC%9E%90%EB%8F%99-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EC%B0%A8%EB%8B%A8/lmghkdngggpkbbjhejejgoeakedicjlm?hl=ko
 
 ## 사용법
 
