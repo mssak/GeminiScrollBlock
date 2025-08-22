@@ -2,6 +2,11 @@
   "extName": { "message": "Block Gemini Auto-Scroll" },
   "extShortName": { "message": "Gemini Scroll Block" },
   "extDesc": { "message": "Prevents automatic scrolling while Gemini generates responses." },
-  "actionTitle": { "message": "Block Gemini Auto-Scroll" }
+  "actionTitle": { "message": "Block Gemini Auto-Scroll" },
+  "popupTitle": { "message": "Gemini Scroll Block" },
+  "popupQuestion": { "message": "Was this extension helpful?" },
+  "popupSupportText": { "message": "With your support, I can code more, for you" },
+  "popupDonateButton": { "message": "Support via PayPal" },
+  "updateInfo": { "message": "🚀 Next update: Scroll down button" }
 }
 

@@ -2,6 +2,11 @@
   "extName": { "message": "Gemini 자동 스크롤 차단" },
   "extShortName": { "message": "Gemini 스크롤 차단" },
   "extDesc": { "message": "Gemini가 답변 생성 중일 때 발생하는 자동 스크롤을 차단합니다." },
-  "actionTitle": { "message": "Gemini 자동 스크롤 차단" }
+  "actionTitle": { "message": "Gemini 자동 스크롤 차단" },
+  "popupTitle": { "message": "Gemini 스크롤 차단" },
+  "popupQuestion": { "message": "이 확장 프로그램이 도움이 되셨나요?" },
+  "popupSupportText": { "message": "코딩 노예 커피 사주기" },
+  "popupDonateButton": { "message": "PayPal로 후원하기" },
+  "updateInfo": { "message": "🚀 다음 업데이트: 스크롤 다운 버튼" }
 }
 
