@@ -3,5 +3,5 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('question').textContent = chrome.i18n.getMessage('popupQuestion');
     document.getElementById('supportText').textContent = chrome.i18n.getMessage('popupSupportText');
     document.getElementById('donateButton').textContent = chrome.i18n.getMessage('popupDonateButton');
-    document.getElementById('updateInfo').textContent = chrome.i18n.getMessage('updateInfo');
+    // document.getElementById('updateInfo').textContent = chrome.i18n.getMessage('updateInfo');
 });
