@@ -170,8 +170,8 @@
     createButton();
     setupScrollMonitoring();
     
-    // Watch for DOM changes and URL changes
-    new MutationObserver(() => {
+    // Watch for DOM changes, URL changes, and new conversations
+    new MutationObserver((mutations) => {
       if (location.href !== currentUrl) {
         currentUrl = location.href;
         // (chat changes)
@@ -179,6 +179,21 @@
           setTimeout(updateButton, delay);
         });
       }
+      
+      // Check for new conversation containers
+      mutations.forEach(mutation => {
+        if (mutation.type === 'childList') {
+          const newConversations = Array.from(mutation.addedNodes)
+            .filter(node => node.nodeType === 1 && 
+                           node.classList?.contains('conversation-container'));
+          if (newConversations.length > 0) {
+            console.log('New conversation detected:', newConversations.length);
+            setTimeout(updateButton, 200);
+            setTimeout(updateButton, 500);
+          }
+        }
+      });
+      
       setupScrollMonitoring();
     }).observe(document.body, { childList: true, subtree: true });
   }
