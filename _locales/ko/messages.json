@@ -5,7 +5,7 @@
   "actionTitle": { "message": "Gemini 자동 스크롤 차단" },
   "popupTitle": { "message": "Gemini 스크롤 차단" },
   "popupQuestion": { "message": "이 확장 프로그램이 도움이 되셨나요?" },
-  "popupSupportText": { "message": "코딩 노예 커피 사주기" },
+  "popupSupportText": { "message": "이 확장 프로그램이 도움이 되셨나요?" },
   "popupDonateButton": { "message": "PayPal로 후원하기" }
 }
 
